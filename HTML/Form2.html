@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width:800px;height:700px; border:1px solid black; padding-bottom:50px; border-radius:20px;">
+        <h1 style="text-align: center;">Complex Form</h1>
+        <!-- div for all tree fieldset -->
+        <div style="width:600px; margin-left:100px;">
+           <!-- 1st fieldset  -->
+            <fieldset style="border-radius:10px;">
+        <legend>Personal Information</legend>
+        <label for="text">Name:</label>
+        <input type="text" id="text">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="number">Phone:</label>
+        <input type="number" id="number" >
+        <br><br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date">
+
+        <Span> Gender: </Span>
+        <label for="radio1">Male</label>
+        <input type="radio" id="radio1">
+        <label for="radio1">Female</label>
+        <input type="radio" id="radio1">
+        <br><br>
+        <label for="select">Country:</label>
+        <select  id="select">
+            <option value="india">India</option>
+            <option value="USA">USA</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+    </fieldset>
+    <!-- 2nd fieldset  -->
+    <fieldset style="border-radius:10px;">
+        <legend >Address</legend>
+        <label for="text1">Street:</label>
+        <input type="text" id="text1">
+        <br><br>
+        <label for="text2">City:</label>
+        <input type="text" id="text2">
+        <br><br>
+        <label for="text3">State:</label>
+        <input type="text" id="text3">
+        <br><br>
+        <label for="text4">Zip Code:</label>
+        <input type="text" id="text4">
+    </fieldset>
+    <!-- 3rd fieldset  -->
+    <fieldset style="border-radius:10px;">
+        <legend>Other Information</legend>
+        <label for="textarea">Comments:</label>
+        <br>
+        <textarea name="textarea" rows="10" style="background-color: azure;"></textarea>
+        <button >Submit</button>
+    </fieldset>
+        </div>
+    </div>
+</body>
+</html>
