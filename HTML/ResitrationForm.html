@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="border:1px solid black; width:500px; border-radius:10px; background-image:radial-gradient(rgb(169, 120, 120),rgb(116, 173, 116),rgb(220, 220, 190));">
+        <legend><h1>Registration Form</h1></legend>
+    <label for="txt"><b>Name:<span style="color: red;">*</span></b></label>
+    <input type="text" name="txt" placeholder="write your name" required>
+    <br>
+    <br>
+    <label for="email"><b>Email:<span style="color: red;">*</span></b></label>
+    <input type="email" name="email" placeholder="write your email" required>
+    <br><br>
+    <label for="password"><b>Password:<span style="color: red;">*</span></b></label>
+    <input type="password" id="password" placeholder="enter password" required>
+    <br><br>
+    <label for="password"><b>Confirm Password:<span style="color: red;">*</span></b></label>
+    <input type="password" id="password" placeholder="confirm password">
+    <br><br>
+    <label for="select"><b>Course:<span style="color: red;">*</span></b></label>
+    <select name="select" >
+        <option value="Btech">BTech</option>
+        <option value="BSc">BSc</option>
+        <option value="MTech">MTech</option>
+    </select>
+    <br><br>
+    <fieldset border="1" style="border:1px solid black">
+        <legend><b>Gender</b><span style="color: red;">*</span></legend>
+        <div>
+            <label for="box1">Male</label>
+            <input type="radio" name="box1">
+
+            <label for="box1">Female</label>
+            <input type="radio" name="box2">
+            <label for="box1">Other</label>
+            <input type="radio" name="box3">
+            
+        </div>
+    </fieldset>
+    <br><br>
+    <fieldset border="1" style="border:1px solid black">
+        <legend><b>Hobbies</b><span style="color: red;">*</span></legend>
+        <label for="checkbox1">Reading:</label>
+         <input type="checkbox" id="checkbox1">
+         <label for="checkbox2">Writing:</label>
+         <input type="checkbox" id="checkbox2">
+
+         <label for="checkbox3">Trevelling:</label>
+         <input type="checkbox" id="checkbox3">
+
+         <label for="checkbox4">Cooking:</label>
+         <input type="checkbox" id="checkbox4">
+    </fieldset>
+    <br>
+      <label for="textarea"><b>Comments:</b></label>
+      <br>
+     <textarea rows="10" cols="30" placeholder="write here" ></textarea>
+     <button>submit</button>
+</fieldset>
+</body>
+</html>
